@@ -1,0 +1,95 @@
+.panel{
+
+    background:#ffffff;
+
+    border-radius:14px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+    padding:20px;
+
+    min-height:300px;
+
+}
+
+.panel h4{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+    color:#0F172A;
+
+}
+.chart-placeholder{
+
+    width:100%;
+
+    height:220px;
+
+    background:#F8FAFC;
+
+    border:2px dashed #CBD5E1;
+
+    border-radius:10px;
+
+}
+/* PANEL */
+
+.panel{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 4px 18px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.panel-title{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+
+/* CHART */
+
+.chart-placeholder{
+
+    width:100%;
+
+    height:260px;
+
+    border-radius:10px;
+
+    border:2px dashed #d5dbe3;
+
+    background:#f8fafc;
+
+}
+
+
+/* PANEL SPACE */
+
+.chart-section{
+
+    margin-top:10px;
+
+}
+
+.monitoring-section{
+
+    margin-top:15px;
+
+}

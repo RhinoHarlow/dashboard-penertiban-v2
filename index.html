@@ -18,9 +18,12 @@
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="assets/css/theme.css">
-    <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/component.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/dashboard.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</body>
 
 </head>
 
@@ -154,15 +157,165 @@ Filter
 
 <section class="kpi-section">
 
-<div class="container-fluid">
+    <div class="container-fluid">
 
-<div class="row g-4">
+        <div class="row g-4">
 
-<!-- KPI nanti -->
+            <!-- Target Rupiah -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-cash-stack"></i>
+                    </div>
 
-</div>
+                    <div class="kpi-title">Target Rupiah</div>
 
-</div>
+                    <div class="kpi-value" id="targetRupiah">
+                        Rp 0
+                    </div>
+
+                    <div class="kpi-footer">
+                        Target Bulan Ini
+                    </div>
+                </div>
+            </div>
+
+            <!-- Realisasi Rupiah -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-wallet2"></i>
+                    </div>
+
+                    <div class="kpi-title">Realisasi Rupiah</div>
+
+                    <div class="kpi-value" id="realisasiRupiah">
+                        Rp 0
+                    </div>
+
+                    <div class="kpi-footer">
+                        Total Realisasi
+                    </div>
+                </div>
+            </div>
+
+            <!-- Target Kubikasi -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-droplet"></i>
+                    </div>
+
+                    <div class="kpi-title">Target Kubikasi</div>
+
+                    <div class="kpi-value" id="targetKubikasi">
+                        0 m³
+                    </div>
+
+                    <div class="kpi-footer">
+                        Target Bulan Ini
+                    </div>
+                </div>
+            </div>
+
+            <!-- Realisasi Kubikasi -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-droplet-fill"></i>
+                    </div>
+
+                    <div class="kpi-title">Realisasi Kubikasi</div>
+
+                    <div class="kpi-value" id="realisasiKubikasi">
+                        0 m³
+                    </div>
+
+                    <div class="kpi-footer">
+                        Total Realisasi
+                    </div>
+                </div>
+            </div>
+
+            <!-- Persentase -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+
+                    <div class="kpi-title">Persentase</div>
+
+                    <div class="kpi-value" id="persentase">
+                        0%
+                    </div>
+
+                    <div class="kpi-footer">
+                        Progress Target
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bon -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-file-earmark-text"></i>
+                    </div>
+
+                    <div class="kpi-title">Jumlah Bon</div>
+
+                    <div class="kpi-value" id="jumlahBon">
+                        0
+                    </div>
+
+                    <div class="kpi-footer">
+                        Total Bon
+                    </div>
+                </div>
+            </div>
+
+            <!-- Potong Pipa -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-tools"></i>
+                    </div>
+
+                    <div class="kpi-title">Potong Pipa</div>
+
+                    <div class="kpi-value" id="potongPipa">
+                        0
+                    </div>
+
+                    <div class="kpi-footer">
+                        Total Pekerjaan
+                    </div>
+                </div>
+            </div>
+
+            <!-- Angkat Meter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon">
+                        <i class="bi bi-speedometer2"></i>
+                    </div>
+
+                    <div class="kpi-title">Angkat Meter</div>
+
+                    <div class="kpi-value" id="angkatMeter">
+                        0
+                    </div>
+
+                    <div class="kpi-footer">
+                        Total Pekerjaan
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
@@ -311,11 +464,6 @@ Selamat Datang di Dashboard Penertiban RHINOCEROS V2
 <script src="assets/js/config.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/dashboard.js"></script>
-<link rel="stylesheet" href="assets/css/base.css">
-<link rel="stylesheet" href="assets/css/layout.css">
-<link rel="stylesheet" href="assets/css/components.css">
-<link rel="stylesheet" href="assets/css/dashboard.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-</body>
+
 
 </html>

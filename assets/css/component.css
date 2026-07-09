@@ -203,3 +203,72 @@ table td{
     font-size:12px;
 
 }
+.kpi-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+    transition:.25s;
+
+}
+
+.kpi-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.kpi-icon{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:12px;
+
+    background:#EEF5FF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#2563EB;
+
+    font-size:25px;
+
+}
+
+.kpi-title{
+
+    margin-top:15px;
+
+    color:#64748B;
+
+}
+
+.kpi-value{
+
+    margin-top:8px;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+.kpi-footer{
+
+    margin-top:10px;
+
+    color:#94A3B8;
+
+    font-size:13px;
+
+}
