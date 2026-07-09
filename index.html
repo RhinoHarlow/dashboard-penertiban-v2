@@ -18,13 +18,11 @@
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="assets/css/base.css">
+   <link rel="stylesheet" href="assets/css/base.css">
 <link rel="stylesheet" href="assets/css/layout.css">
-<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/component.css">
 <link rel="stylesheet" href="assets/css/dashboard.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-</body>
-
 </head>
 
 <body>
@@ -333,7 +331,7 @@ Filter
 
 <h4>Target vs Realisasi</h4>
 
-<div class="chart-placeholder"></div>
+<canvas id="chartTarget"></canvas>
 
 </div>
 
@@ -345,7 +343,7 @@ Filter
 
 <h4>Trend Bulanan</h4>
 
-<div class="chart-placeholder"></div>
+<canvas id="chartTrend"></canvas>
 
 </div>
 
@@ -357,7 +355,7 @@ Filter
 
 <h4>Rupiah</h4>
 
-<div class="chart-placeholder"></div>
+<canvas id="chartRupiah"></canvas>
 
 </div>
 
@@ -369,7 +367,7 @@ Filter
 
 <h4>Kubikasi</h4>
 
-<div class="chart-placeholder"></div>
+<canvas id="chartKubikasi"></canvas>
 
 </div>
 
@@ -381,7 +379,7 @@ Filter
 
 <h4>Penertiban per Wilayah</h4>
 
-<div class="chart-placeholder"></div>
+<canvas id="chartWilayah"></canvas>
 
 </div>
 
@@ -461,9 +459,14 @@ Selamat Datang di Dashboard Penertiban RHINOCEROS V2
 
 </div>
 
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- JavaScript -->
 <script src="assets/js/config.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/dashboard.js"></script>
+<script src="assets/js/charts.js"></script>
 
-
+</body>
 </html>
