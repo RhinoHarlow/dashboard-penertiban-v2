@@ -1,0 +1,206 @@
+/* ======================================================
+   RHINOCEROS Dashboard V2
+   Layout.css
+====================================================== */
+
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.dashboard{
+
+    width:100%;
+
+    min-height:100vh;
+
+}
+
+
+/* ===========================
+   HEADER
+=========================== */
+
+.dashboard-header{
+
+    height:80px;
+
+    background:var(--navy);
+
+    color:var(--white);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 25px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+/* ===========================
+   HEADER LEFT
+=========================== */
+
+.header-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.logo{
+
+    width:55px;
+
+    height:55px;
+
+    object-fit:contain;
+
+}
+
+.header-left h1{
+
+    font-size:26px;
+
+    font-weight:700;
+
+}
+
+.header-left p{
+
+    color:#cbd5e1;
+
+    font-size:14px;
+
+}
+
+
+/* ===========================
+   HEADER RIGHT
+=========================== */
+
+.header-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+    font-size:14px;
+
+}
+
+#clock{
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+
+/* ===========================
+   FILTER
+=========================== */
+
+.filter-section{
+
+    background:var(--white);
+
+    margin:20px;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    min-height:70px;
+
+    padding:15px 20px;
+
+}
+
+
+/* ===========================
+   KPI
+=========================== */
+
+.kpi-section{
+
+    margin:20px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+
+/* ===========================
+   CHART
+=========================== */
+
+.chart-section{
+
+    margin:20px;
+
+    min-height:400px;
+
+}
+
+
+/* ===========================
+   MONITORING
+=========================== */
+
+.monitoring-section{
+
+    margin:20px;
+
+    min-height:300px;
+
+}
+
+
+/* ===========================
+   SMART INFO
+=========================== */
+
+.smartinfo-section{
+
+    margin:20px;
+
+    min-height:180px;
+
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.dashboard-footer{
+
+    height:45px;
+
+    background:var(--navy);
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 20px;
+
+}
