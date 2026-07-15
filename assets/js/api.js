@@ -1,8 +1,8 @@
-async function loadSheet() {
+function getCSV(url) {
 
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
 
-        Papa.parse(CONFIG.DATA_URL, {
+        Papa.parse(url, {
 
             download: true,
 
@@ -10,16 +10,32 @@ async function loadSheet() {
 
             skipEmptyLines: true,
 
-            complete: function(results) {
-
-                console.table(results.data);
+            complete: function (results) {
 
                 resolve(results.data);
+
+            },
+
+            error: function (err) {
+
+                reject(err);
 
             }
 
         });
 
     });
+
+}
+
+async function loadKubikasi() {
+
+    return await getCSV(CONFIG.KUBIKASI_URL);
+
+}
+
+async function loadRupiah() {
+
+    return await getCSV(CONFIG.RUPIAH_URL);
 
 }
